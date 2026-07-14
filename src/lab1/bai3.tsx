@@ -1,4 +1,4 @@
-const Bai3 = () => {
+const Lab1Bai3 = () => {
   return (
     <div className="p-5">
       <h2 className="text-2xl font-bold mb-4">Danh sách User</h2>
@@ -30,4 +30,4 @@ const Bai3 = () => {
   );
 };
 
-export default Bai3;
+export default Lab1Bai3;

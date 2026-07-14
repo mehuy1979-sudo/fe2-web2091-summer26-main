@@ -1,24 +1,53 @@
-const Bai1 = () => {
+import { Layout , Menu } from "antd";
+import {
+  HomeOutlined,
+  ShoppingOutlined,
+  UserOutlined,
+} from "@ant-design/icons";
+
+const { Header, Content, Footer, Sider } = Layout;
+
+export default function Lab1Bai1() {
   return (
-    <div className="flex h-screen">
-      {/* Sidebar */}
-      <div className="w-64 bg-gray-800 text-white p-5">
-        <h2 className="text-xl font-bold">Sidebar</h2>
-      </div>
-
-      <div className="flex-1">
-        {/* Header */}
-        <div className="h-16 bg-blue-500 text-white flex items-center px-5">
-          Header
+    <Layout>
+      <Header style={{ color: "white" }}>Header</Header>
+      <Content style={{ padding: 20 }}>Content</Content>
+      <Sider>
+        <div
+          style={{
+            color: "red",
+            textAlign: "center",
+            padding: "16px",
+            fontWeight: "bold",
+          }}
+        >
+          WEB2091
         </div>
 
-        {/* Content */}
-        <div className="p-5">
-          <h1 className="text-2xl font-bold">Content</h1>
-        </div>
-      </div>
-    </div>
+        <Menu
+          theme="dark"
+          mode="inline"
+          items={[
+            {
+              key: "1",
+              icon: <HomeOutlined />,
+              label: "Trang chủ",
+            },
+            {
+              key: "2",
+              icon: <ShoppingOutlined />,
+              label: "Sản phẩm",
+            },
+            {
+              key: "3",
+              icon: <UserOutlined />,
+              label: "Người dùng",
+            },
+          ]}
+        />
+      </Sider>
+
+      <Footer>Footer</Footer>
+    </Layout>
   );
-};
-
-export default Bai1;
+}

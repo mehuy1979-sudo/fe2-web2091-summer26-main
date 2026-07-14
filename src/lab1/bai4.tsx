@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const Bai4 = () => {
+const Lab1Bai4 = () => {
   const [open, setOpen] = useState(false);
 
   return (
@@ -56,4 +56,4 @@ const Bai4 = () => {
   );
 };
 
-export default Bai4;
+export default Lab1Bai4;

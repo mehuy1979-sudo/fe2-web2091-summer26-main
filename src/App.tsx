@@ -4,9 +4,11 @@ import { Link } from "react-router-dom";
 // import Lab1Bai2 from "./lab1/bai2";
 // import Lab1Bai3 from "./lab1/bai3";
 // import Lab1Bai4 from "./lab1/bai4";
-// import Lab2Bai1 from "./lab2/bai1";
+// import Lab2Bai1 from "./lab2/bai1"; 
 // import Lab2Bai2 from "./lab2/bai2";
-import Lab2Bai3 from "./lab2/bai3";
+// import Lab2Bai3 from "./lab2/bai3";
+// import Lab3Bai12 from "./lab3/bai12";
+import Lab3Bai3 from "./lab3/bai3";
 
 function App() {
   return (
@@ -49,7 +51,9 @@ function App() {
             <Lab1Bai4 /> */}
         {/* <Lab2Bai1/> */}
         {/* <Lab2Bai2 /> */}
-        <Lab2Bai3 />
+        {/* <Lab2Bai3 /> */}
+        {/* <Lab3Bai12 /> */}
+         <Lab3Bai3 />
       </div>
 
       <Toaster />

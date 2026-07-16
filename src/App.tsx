@@ -8,7 +8,8 @@ import { Link } from "react-router-dom";
 // import Lab2Bai2 from "./lab2/bai2";
 // import Lab2Bai3 from "./lab2/bai3";
 // import Lab3Bai12 from "./lab3/bai12";
-import Lab3Bai3 from "./lab3/bai3";
+// import Lab3Bai3 from "./lab3/bai3";
+import Lab4Bai from "./lab4/bai";
 
 function App() {
   return (
@@ -53,7 +54,8 @@ function App() {
         {/* <Lab2Bai2 /> */}
         {/* <Lab2Bai3 /> */}
         {/* <Lab3Bai12 /> */}
-         <Lab3Bai3 />
+         {/* <Lab3Bai3 /> */}
+            <Lab4Bai />
       </div>
 
       <Toaster />

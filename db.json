@@ -1,3 +1,54 @@
 {
-  "stories": []
+  "stories": [
+    {
+      "id": 1,
+      "title": "One Piece",
+      "author": "Eiichiro Oda",
+      "category": "Phiêu lưu",
+      "price": 25000,
+      "image": "https://cdn.myanimelist.net/images/manga/2/253146.jpg",
+      "description": "Cuộc hành trình tìm kho báu One Piece.",
+      "status": "Đang bán"
+    },
+    {
+      "id": 2,
+      "title": "Naruto",
+      "author": "Masashi Kishimoto",
+      "category": "Hành động",
+      "price": 22000,
+      "image": "https://cdn.myanimelist.net/images/manga/3/117681.jpg",
+      "description": "Câu chuyện về ninja Naruto.",
+      "status": "Đang bán"
+    },
+    {
+      "id": 3,
+      "title": "Doraemon",
+      "author": "Fujiko F. Fujio",
+      "category": "Thiếu nhi",
+      "price": 18000,
+      "image": "https://cdn.myanimelist.net/images/manga/1/181813.jpg",
+      "description": "Chú mèo máy đến từ tương lai.",
+      "status": "Đang bán"
+    },
+    {
+      "id": 4,
+      "title": "Dragon Ball",
+      "author": "Akira Toriyama",
+      "category": "Hành động",
+      "price": 30000,
+      "image": "https://cdn.myanimelist.net/images/manga/1/113863.jpg",
+      "description": "Son Goku và hành trình tìm Ngọc Rồng.",
+      "status": "Hết hàng"
+    },
+    {
+      "id": 5,
+      "title": "Detective Conan",
+      "author": "Gosho Aoyama",
+      "category": "Trinh thám",
+      "price": 28000,
+      "image": "https://cdn.myanimelist.net/images/manga/3/188896.jpg",
+      "description": "Thám tử Conan phá các vụ án bí ẩn.",
+      "status": "Đang bán"
+    }
+  ]
 }
